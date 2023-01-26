@@ -1,9 +1,9 @@
 # TP-Link Archer T2U Plus a.k.a AC600 High-Gain
 
-TP-Link Archer T2U Plus a.k.a AC600 High Gain is a very **affordable** dual band wireless adapter **compatible with kali linux** and supports monitor mode , soft AP mode,packet injection etc. it supports both 2.4 GHz and 5GHz band and has a 5dBi Antenna for better signal reception. 2357:0120
+TP-Link Archer T2U Plus a.k.a AC600 High Gain is a very **affordable** dual band wireless adapter **compatible with kali linux** and supports monitor mode , soft AP mode,packet injection etc. it supports both 2.4 GHz and 5GHz band and has a 5dBi Antenna for better signal reception.
 
 <p align = "center">
-<img src="https://github.com/nlkguy/archer-t2u-plus-linux/blob/main/Images/archer-t2u-inside.jpeg" alt="Retail Box" width="40%" height="40%">
+<img src="https://github.com/Vincent4440/archer-t2u-plus-linux/blob/main/Images/archer-t2u-inside.jpeg" alt="Retail Box" width="40%" height="40%">
 </p>
 
 ## Why should i buy this adapter ?
@@ -32,14 +32,14 @@ This adapter has a **Realtek RTL8821AU Chipset** at its heart. RTL8821AU has ple
 
 if the installation is aborted , check existing dkms modules and uninstall previously installed driver 
 
-:point_right: [Uninstall Existing Driver](https://github.com/nlkguy/archer-t2u-plus-linux#uninstall-driver-in-linux)
+:point_right: [Uninstall Existing Driver](https://github.com/Vincent4440/archer-t2u-plus-linux#uninstall-driver-in-linux)
 
 7. Check the wireless interfaces by typing `iwconfig`.
-<img src="https://github.com/nlkguy/archer-t2u-plus-linux/blob/main/Images/lsusb%3Biwconfig.png" alt="lsusb&iwconfig_result" width="50%" height="50%">
+<img src="https://github.com/Vincent4440/archer-t2u-plus-linux/blob/main/Images/lsusb%3Biwconfig.png" alt="lsusb&iwconfig_result" width="50%" height="50%">
 
 if you encounter any weird interface name , rename the Wireless interface by following below steps
 
-:point_right: [Change/Rename Network Interface](https://github.com/nlkguy/archer-t2u-plus-linux/blob/main/change_interface_name.md)
+:point_right: [Change/Rename Network Interface](https://github.com/Vincent4440/archer-t2u-plus-linux/blob/main/change_interface_name.md)
 
 
 ## Driver for Raspberry Pi (Raspbian OS / Kali)(ARM)
@@ -82,7 +82,7 @@ if you encounter any weird interface name , rename the Wireless interface by fol
 
 7. Install the Driver 
 >```sudo make dkms_install```
-<img src="https://github.com/nlkguy/archer-t2u-plus-linux/blob/main/Images/kali-arm-installing.png" alt="Kali-ARM-RPi-Installing" width="70%" height="70%">
+<img src="https://github.com/Vincent4440/archer-t2u-plus-linux/blob/main/Images/kali-arm-installing.png" alt="Kali-ARM-RPi-Installing" width="70%" height="70%">
 
 8. Check the wireless interfaces by typing `iwconfig`.
 
